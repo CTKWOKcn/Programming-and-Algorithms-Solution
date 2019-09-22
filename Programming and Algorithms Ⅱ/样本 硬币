@@ -1,0 +1,7 @@
+输入样例：
+1
+ABCD EFGH even
+ABCI EFJK up
+ABIJ EFGH even
+输出样例：
+K is the counterfeit coin and it is light.
