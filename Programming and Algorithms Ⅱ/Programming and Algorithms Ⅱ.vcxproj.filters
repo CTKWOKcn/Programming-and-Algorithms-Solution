@@ -25,6 +25,12 @@
       <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="熄灯问题.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Hanio.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="N皇后(递归).cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -123,6 +123,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Hanio.cpp" />
+    <ClCompile Include="N皇后(递归).cpp" />
     <ClCompile Include="熄灯问题.cpp" />
     <ClCompile Include="熄灯问题%28myself%29.cpp" />
     <ClCompile Include="硬币（mysellf）.cpp" />
