@@ -31,6 +31,15 @@
       <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="N皇后(递归).cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="波兰表达式.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="四则运算.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
