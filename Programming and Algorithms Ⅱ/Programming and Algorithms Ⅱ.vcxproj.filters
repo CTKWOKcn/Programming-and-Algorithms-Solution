@@ -40,6 +40,18 @@
       <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="四则运算.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="跳台阶问题.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="放苹果问题.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="算24.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="归并排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
