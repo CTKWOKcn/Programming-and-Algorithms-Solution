@@ -52,7 +52,16 @@
       <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="归并排序.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="快速排序.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="输出前m大的数.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="输出前m大的数[O%28nlogn%29].cpp">
+      <Filter>资源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
