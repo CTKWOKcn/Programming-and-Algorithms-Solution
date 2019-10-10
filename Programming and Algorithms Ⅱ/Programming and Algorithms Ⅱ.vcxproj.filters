@@ -63,6 +63,9 @@
     <ClCompile Include="输出前m大的数[O%28n+mlogm%29].cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
+    <ClCompile Include="求 10000 以内的阶乘.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="样本 硬币">
