@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\大整数四则运算（string实现）">
+      <UniqueIdentifier>{5ae24b9f-ebf9-4e6f-9b84-06a32b3972d7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="硬币（枚举）.cpp">
@@ -63,8 +66,20 @@
     <ClCompile Include="输出前m大的数[O%28n+mlogm%29].cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
+    <ClCompile Include="石头剪刀布.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
     <ClCompile Include="求 10000 以内的阶乘.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="addition.cpp">
+      <Filter>头文件\大整数四则运算（string实现）</Filter>
+    </ClCompile>
+    <ClCompile Include="subtraction.cpp">
+      <Filter>头文件\大整数四则运算（string实现）</Filter>
+    </ClCompile>
+    <ClCompile Include="multiplication.cpp">
+      <Filter>头文件\大整数四则运算（string实现）</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
