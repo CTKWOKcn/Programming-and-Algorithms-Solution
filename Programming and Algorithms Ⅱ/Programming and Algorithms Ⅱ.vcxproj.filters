@@ -81,6 +81,12 @@
     <ClCompile Include="multiplication.cpp">
       <Filter>头文件\大整数四则运算（string实现）</Filter>
     </ClCompile>
+    <ClCompile Include="源1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Factorial.cpp">
+      <Filter>头文件\大整数四则运算（string实现）</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="样本 硬币">

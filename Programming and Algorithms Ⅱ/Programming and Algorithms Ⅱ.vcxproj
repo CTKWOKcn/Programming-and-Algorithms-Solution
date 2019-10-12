@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="addition.cpp" />
+    <ClCompile Include="Factorial.cpp" />
     <ClCompile Include="Hanio.cpp" />
     <ClCompile Include="multiplication.cpp" />
     <ClCompile Include="subtraction.cpp" />
@@ -135,6 +136,7 @@
     <ClCompile Include="波兰表达式.cpp" />
     <ClCompile Include="源.cpp" />
     <ClCompile Include="求 10000 以内的阶乘.cpp" />
+    <ClCompile Include="源1.cpp" />
     <ClCompile Include="石头剪刀布.cpp" />
     <ClCompile Include="输出前m大的数[O%28n+mlogm%29].cpp" />
     <ClCompile Include="输出前m大的数[O%28nlogn%29].cpp" />
