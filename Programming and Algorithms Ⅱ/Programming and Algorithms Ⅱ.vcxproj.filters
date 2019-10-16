@@ -16,6 +16,12 @@
     <Filter Include="头文件\大整数四则运算（string实现）">
       <UniqueIdentifier>{5ae24b9f-ebf9-4e6f-9b84-06a32b3972d7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\动态规划%28一%29">
+      <UniqueIdentifier>{e7cb7eab-9131-4f3e-8336-700126ab86e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\动态规划%28一%29\数字三角形">
+      <UniqueIdentifier>{46056765-fd3a-4d67-9b57-7bd2cb34d539}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="硬币（枚举）.cpp">
@@ -37,9 +43,6 @@
       <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="波兰表达式.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="源.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
     <ClCompile Include="四则运算.cpp">
@@ -81,11 +84,26 @@
     <ClCompile Include="multiplication.cpp">
       <Filter>头文件\大整数四则运算（string实现）</Filter>
     </ClCompile>
-    <ClCompile Include="源1.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Factorial.cpp">
       <Filter>头文件\大整数四则运算（string实现）</Filter>
+    </ClCompile>
+    <ClCompile Include="包含四则运算的main（待修改）.cpp">
+      <Filter>头文件\大整数四则运算（string实现）</Filter>
+    </ClCompile>
+    <ClCompile Include="数字三角形（纯递归）.cpp">
+      <Filter>源文件\动态规划%28一%29\数字三角形</Filter>
+    </ClCompile>
+    <ClCompile Include="数字三角形（记忆递归型）.cpp">
+      <Filter>源文件\动态规划%28一%29\数字三角形</Filter>
+    </ClCompile>
+    <ClCompile Include="数字三角形（递归转成递推）.cpp">
+      <Filter>源文件\动态规划%28一%29\数字三角形</Filter>
+    </ClCompile>
+    <ClCompile Include="数字三角形（空间优化）.cpp">
+      <Filter>源文件\动态规划%28一%29\数字三角形</Filter>
+    </ClCompile>
+    <ClCompile Include="最长上升子序列.cpp">
+      <Filter>源文件\动态规划%28一%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
