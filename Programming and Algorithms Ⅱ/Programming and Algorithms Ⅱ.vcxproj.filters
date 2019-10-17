@@ -22,59 +22,11 @@
     <Filter Include="源文件\动态规划%28一%29\数字三角形">
       <UniqueIdentifier>{46056765-fd3a-4d67-9b57-7bd2cb34d539}</UniqueIdentifier>
     </Filter>
+    <Filter Include="资源文件\递归">
+      <UniqueIdentifier>{357bce08-602c-4311-a2bd-f2efdd2d9308}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="硬币（枚举）.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="硬币（mysellf）.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="熄灯问题%28myself%29.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="熄灯问题.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Hanio.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="N皇后(递归).cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="波兰表达式.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="四则运算.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="跳台阶问题.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="放苹果问题.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="算24.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="归并排序.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="快速排序.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="输出前m大的数[O%28nlogn%29].cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="输出前m大的数[O%28n+mlogm%29].cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="石头剪刀布.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="求 10000 以内的阶乘.cpp">
-      <Filter>资源文件</Filter>
-    </ClCompile>
     <ClCompile Include="addition.cpp">
       <Filter>头文件\大整数四则运算（string实现）</Filter>
     </ClCompile>
@@ -105,13 +57,70 @@
     <ClCompile Include="最长上升子序列.cpp">
       <Filter>源文件\动态规划%28一%29</Filter>
     </ClCompile>
+    <ClCompile Include="Hanio.cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="N皇后(递归).cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="波兰表达式.cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="放苹果问题.cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="归并排序.cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="快速排序.cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="求 10000 以内的阶乘.cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="石头剪刀布.cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="输出前m大的数[O%28n+mlogm%29].cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="输出前m大的数[O%28nlogn%29].cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="四则运算.cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="算24.cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="跳台阶问题.cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="熄灯问题%28myself%29.cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="熄灯问题.cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="硬币（mysellf）.cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="硬币（枚举）.cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="公共子序列.cpp">
+      <Filter>源文件\动态规划%28一%29</Filter>
+    </ClCompile>
+    <ClCompile Include="最佳加法表达式.cpp">
+      <Filter>源文件\动态规划%28一%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="样本 硬币">
-      <Filter>资源文件</Filter>
-    </Text>
     <Text Include="样本 熄灯问题.txt">
-      <Filter>资源文件</Filter>
+      <Filter>资源文件\递归</Filter>
+    </Text>
+    <Text Include="样本 硬币">
+      <Filter>资源文件\递归</Filter>
     </Text>
   </ItemGroup>
 </Project>

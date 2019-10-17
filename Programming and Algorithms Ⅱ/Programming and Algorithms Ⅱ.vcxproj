@@ -137,10 +137,12 @@
     <ClCompile Include="数字三角形（记忆递归型）.cpp" />
     <ClCompile Include="数字三角形（纯递归）.cpp" />
     <ClCompile Include="数字三角形（递归转成递推）.cpp" />
+    <ClCompile Include="最佳加法表达式.cpp" />
     <ClCompile Include="最长上升子序列.cpp" />
     <ClCompile Include="波兰表达式.cpp" />
     <ClCompile Include="求 10000 以内的阶乘.cpp" />
     <ClCompile Include="包含四则运算的main（待修改）.cpp" />
+    <ClCompile Include="公共子序列.cpp" />
     <ClCompile Include="石头剪刀布.cpp" />
     <ClCompile Include="输出前m大的数[O%28n+mlogm%29].cpp" />
     <ClCompile Include="输出前m大的数[O%28nlogn%29].cpp" />
