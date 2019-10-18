@@ -90,6 +90,13 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
+      <StackCommitSize>4MB</StackCommitSize>
+      <HeapReserveSize>
+      </HeapReserveSize>
+      <HeapCommitSize>
+      </HeapCommitSize>
+      <StackReserveSize>
+      </StackReserveSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -126,6 +133,7 @@
     <ClCompile Include="addition.cpp" />
     <ClCompile Include="Factorial.cpp" />
     <ClCompile Include="Hanio.cpp" />
+    <ClCompile Include="Help Jimmy(POJ1661).cpp" />
     <ClCompile Include="multiplication.cpp" />
     <ClCompile Include="subtraction.cpp" />
     <ClCompile Include="N皇后(递归).cpp" />
@@ -137,7 +145,8 @@
     <ClCompile Include="数字三角形（记忆递归型）.cpp" />
     <ClCompile Include="数字三角形（纯递归）.cpp" />
     <ClCompile Include="数字三角形（递归转成递推）.cpp" />
-    <ClCompile Include="最佳加法表达式.cpp" />
+    <ClCompile Include="最佳加法表达式（递归）.cpp" />
+    <ClCompile Include="最佳加法表达式（递推）.cpp" />
     <ClCompile Include="最长上升子序列.cpp" />
     <ClCompile Include="波兰表达式.cpp" />
     <ClCompile Include="求 10000 以内的阶乘.cpp" />

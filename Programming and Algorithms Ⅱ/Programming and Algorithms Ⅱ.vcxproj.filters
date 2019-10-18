@@ -111,7 +111,13 @@
     <ClCompile Include="公共子序列.cpp">
       <Filter>源文件\动态规划%28一%29</Filter>
     </ClCompile>
-    <ClCompile Include="最佳加法表达式.cpp">
+    <ClCompile Include="最佳加法表达式（递推）.cpp">
+      <Filter>源文件\动态规划%28一%29</Filter>
+    </ClCompile>
+    <ClCompile Include="最佳加法表达式（递归）.cpp">
+      <Filter>源文件\动态规划%28一%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Help Jimmy(POJ1661).cpp">
       <Filter>源文件\动态规划%28一%29</Filter>
     </ClCompile>
   </ItemGroup>
