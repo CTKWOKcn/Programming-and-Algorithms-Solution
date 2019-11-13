@@ -25,6 +25,9 @@
     <Filter Include="资源文件\递归">
       <UniqueIdentifier>{357bce08-602c-4311-a2bd-f2efdd2d9308}</UniqueIdentifier>
     </Filter>
+    <Filter Include="资源文件\枚举">
+      <UniqueIdentifier>{969e22b4-d2b9-4475-a9f3-78dfe7168827}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="addition.cpp">
@@ -96,18 +99,6 @@
     <ClCompile Include="跳台阶问题.cpp">
       <Filter>资源文件\递归</Filter>
     </ClCompile>
-    <ClCompile Include="熄灯问题%28myself%29.cpp">
-      <Filter>资源文件\递归</Filter>
-    </ClCompile>
-    <ClCompile Include="熄灯问题.cpp">
-      <Filter>资源文件\递归</Filter>
-    </ClCompile>
-    <ClCompile Include="硬币（mysellf）.cpp">
-      <Filter>资源文件\递归</Filter>
-    </ClCompile>
-    <ClCompile Include="硬币（枚举）.cpp">
-      <Filter>资源文件\递归</Filter>
-    </ClCompile>
     <ClCompile Include="公共子序列.cpp">
       <Filter>源文件\动态规划%28一%29</Filter>
     </ClCompile>
@@ -119,6 +110,27 @@
     </ClCompile>
     <ClCompile Include="Help Jimmy(POJ1661).cpp">
       <Filter>源文件\动态规划%28一%29</Filter>
+    </ClCompile>
+    <ClCompile Include="熄灯问题.cpp">
+      <Filter>资源文件\枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="熄灯问题%28myself%29.cpp">
+      <Filter>资源文件\枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="硬币（mysellf）.cpp">
+      <Filter>资源文件\枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="硬币（枚举）.cpp">
+      <Filter>资源文件\枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="完美立方.cpp">
+      <Filter>资源文件\枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="生理周期.cpp">
+      <Filter>资源文件\枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="特殊密码锁.cpp">
+      <Filter>资源文件\枚举</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -138,6 +138,7 @@
     <ClCompile Include="subtraction.cpp" />
     <ClCompile Include="N皇后(递归).cpp" />
     <ClCompile Include="四则运算.cpp" />
+    <ClCompile Include="完美立方.cpp" />
     <ClCompile Include="归并排序.cpp" />
     <ClCompile Include="快速排序.cpp" />
     <ClCompile Include="放苹果问题.cpp" />
@@ -152,6 +153,8 @@
     <ClCompile Include="求 10000 以内的阶乘.cpp" />
     <ClCompile Include="包含四则运算的main（待修改）.cpp" />
     <ClCompile Include="公共子序列.cpp" />
+    <ClCompile Include="特殊密码锁.cpp" />
+    <ClCompile Include="生理周期.cpp" />
     <ClCompile Include="石头剪刀布.cpp" />
     <ClCompile Include="输出前m大的数[O%28n+mlogm%29].cpp" />
     <ClCompile Include="输出前m大的数[O%28nlogn%29].cpp" />
