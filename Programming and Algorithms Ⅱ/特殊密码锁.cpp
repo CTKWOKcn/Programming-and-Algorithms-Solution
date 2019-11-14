@@ -1,79 +1,88 @@
-#include <memory>
-#include <string>
-#include <cstring>
-#include <iostream>
-using namespace std;
-string stra, strb;
-string oristra;
-int na, nb;
-int n[2];
-int main() {
-	cin >> oristra;
-	cin >> strb;
-	stra = oristra;
-	na = oristra.size();
-	nb = strb.size();
-	if (na != nb)
-		cout << "error" << endl;
-	for (int i = 0; i < 2; i++)
-	{
-		stra = oristra;
-		if (stra[0] != strb[0])
-		{
-			if (stra[0] == '1')//changestring(stra[0]),changestring(stra[1])
-				stra[0] = '0';
-			else
-				stra[0] = '1';
-			if (stra[1] == '1')
-				stra[1] = '0';
-			else
-				stra[1] = '1';
-			//----------------------------------------------------------//
-			if (i == 1)
-			{
-				if (stra[2] == '1')//changestring(stra[1])
-					stra[2] = '0';
-				else
-					stra[2] = '1';
-			}
-			n[i]++;
-		}
-		for (int j = 1; j < na - 1; j++)
-		{
-			if (stra[j] != strb[j])
-			{
-				n[i]++;
-				//changestring(stra[j]);changestring(stra[j+1]),changestring(stra[j+2])
-				if (stra[j] == '1')
-					stra[j] = '0';
-				else
-					stra[j] = '1';
-
-				if (stra[j + 1] == '1')
-					stra[j + 1] = '0';
-				else
-					stra[j + 1] = '1';
-
-				if (stra[j + 2] == '1')
-					stra[j + 2] = '0';
-				else
-					stra[j + 2] = '1';
-			}
-		}
-		if (stra != strb)
-		{
-			n[i] = 99;
-		}
-	}
-	if (n[0] == n[1] == 99)
-	{
-		cout << "impossible" << endl;
-	}
-	else if (n[0] < n[1])
-	{
-		cout << n[0];
-	}
-	else
-		cout << n[1];
-	return 0;
-}
+//#include<iostream>
+//#include<cstring>
+//#include <string>
+//using namespace std;
+//
+//int iniState;//存放原始状态
+//int aimState;//存放目标状态
+//int mixCount = 999; //存放最小计数 
+//
+//int GetBit(int c, int i)//取c的第i位
+//{
+//	return(c >> i) & 1;
+//}
+//
+////设置c的第i位为v 
+//void SetBit(int& c, int i, char v)
+//{
+//
+//	if (v == '1') {
+//		c |= (1 << i);
+//	}
+//	else if (v == '0')
+//	{
+//		c &= ~(1 << i);
+//	}
+//}
+//
+////翻转c的第i位
+//void FlipBit(int& c, int i) {
+//	c ^= (1 << i);
+//}
+//
+//int main()
+//{
+//	string ini, aim;
+//	getline(cin, ini);
+//	getline(cin, aim);
+//
+//	int len = ini.size(); //len为输入的数据的长度
+//	int count = 0, mixCount = 999; //计算次数、最小计算次数      
+//	for (int i = 0; i < len; i++) //改为位表示 
+//	{
+//		SetBit(iniState, i, ini[i]);
+//		SetBit(aimState, i, aim[i]);
+//	}
+//
+//	for (int n = 0; n < 2; n++) //枚举开头的两种可能
+//	{
+//		int state = iniState;
+//		int count = 0;
+//
+//		int flag = n;//初始化标志位，1变0不变
+//		if (n) {
+//			FlipBit(state, 0); //处理第一个数据 
+//			FlipBit(state, 1);//第二个数据也要翻转 
+//			count++;
+//		}
+//		for (int i = 1; i < len; i++)
+//		{
+//			if (GetBit(state, i - 1) == GetBit(aimState, i - 1))//若上个数据和目标一致，则flag为0
+//				flag = 0;
+//			else flag = 1;
+//			if (flag == 1) //需翻转
+//			{
+//				count++;
+//				FlipBit(state, i); //翻转当前位
+//				if (i != len - 1)
+//					FlipBit(state, i + 1); //未到边界，翻转下一位。
+//					 //上一位不需要操作，只需对比最后一位即可 
+//			}
+//		}
+//		//如果末位不一样，说明不可行，count置零 
+//		if (GetBit(state, len - 1) != GetBit(aimState, len - 1))
+//			count = 0;
+//		if (count != 0)
+//		{
+//			if (count < mixCount)
+//				mixCount = count;
+//		}
+//
+//	}
+//
+//	if (mixCount != 999)
+//		cout << mixCount << endl;
+//	else
+//		cout << "impossible" << endl;
+//	return 0;
+//}

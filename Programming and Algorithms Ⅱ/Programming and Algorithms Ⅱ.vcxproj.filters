@@ -129,7 +129,16 @@
     <ClCompile Include="生理周期.cpp">
       <Filter>资源文件\枚举</Filter>
     </ClCompile>
+    <ClCompile Include="特殊密码锁%28myself%29.cpp">
+      <Filter>资源文件\枚举</Filter>
+    </ClCompile>
     <ClCompile Include="特殊密码锁.cpp">
+      <Filter>资源文件\枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="拨钟问题%28纯枚举法）.cpp">
+      <Filter>资源文件\枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="拨钟问题（优化）.cpp">
       <Filter>资源文件\枚举</Filter>
     </ClCompile>
   </ItemGroup>
@@ -139,6 +148,9 @@
     </Text>
     <Text Include="样本 硬币">
       <Filter>资源文件\递归</Filter>
+    </Text>
+    <Text Include="拨钟问题.txt">
+      <Filter>资源文件\枚举</Filter>
     </Text>
   </ItemGroup>
 </Project>

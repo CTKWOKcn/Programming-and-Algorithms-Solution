@@ -141,6 +141,8 @@
     <ClCompile Include="完美立方.cpp" />
     <ClCompile Include="归并排序.cpp" />
     <ClCompile Include="快速排序.cpp" />
+    <ClCompile Include="拨钟问题%28纯枚举法）.cpp" />
+    <ClCompile Include="拨钟问题（优化）.cpp" />
     <ClCompile Include="放苹果问题.cpp" />
     <ClCompile Include="数字三角形（空间优化）.cpp" />
     <ClCompile Include="数字三角形（记忆递归型）.cpp" />
@@ -154,6 +156,7 @@
     <ClCompile Include="包含四则运算的main（待修改）.cpp" />
     <ClCompile Include="公共子序列.cpp" />
     <ClCompile Include="特殊密码锁.cpp" />
+    <ClCompile Include="特殊密码锁%28myself%29.cpp" />
     <ClCompile Include="生理周期.cpp" />
     <ClCompile Include="石头剪刀布.cpp" />
     <ClCompile Include="输出前m大的数[O%28n+mlogm%29].cpp" />
@@ -166,6 +169,7 @@
     <ClCompile Include="跳台阶问题.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="拨钟问题.txt" />
     <Text Include="样本 熄灯问题.txt" />
     <Text Include="样本 硬币" />
   </ItemGroup>
