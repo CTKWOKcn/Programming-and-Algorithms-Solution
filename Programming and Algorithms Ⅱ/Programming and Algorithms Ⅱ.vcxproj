@@ -131,12 +131,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="addition.cpp" />
+    <ClCompile Include="Aggressive cows.cpp" />
     <ClCompile Include="Factorial.cpp" />
     <ClCompile Include="Hanio.cpp" />
     <ClCompile Include="Help Jimmy(POJ1661).cpp" />
     <ClCompile Include="multiplication.cpp" />
     <ClCompile Include="subtraction.cpp" />
     <ClCompile Include="N皇后(递归).cpp" />
+    <ClCompile Include="二分法求方程的根.cpp" />
     <ClCompile Include="四则运算.cpp" />
     <ClCompile Include="完美立方.cpp" />
     <ClCompile Include="归并排序.cpp" />
@@ -169,6 +171,7 @@
     <ClCompile Include="跳台阶问题.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="Aggressive cows.txt" />
     <Text Include="拨钟问题.txt" />
     <Text Include="样本 熄灯问题.txt" />
     <Text Include="样本 硬币" />

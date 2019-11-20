@@ -1,0 +1,42 @@
+总时间限制: 1000ms 内存限制: 65536kB
+描述
+Farmer John has built a new long barn, with N (2 <= N <= 100,000) stalls.
+The stalls are located along a straight line at positions x1,...,xN (0 <= xi <= 1,000,000,000).
+
+His C (2 <= C <= N) cows don't like this barn layout and become aggressive towards each other once put into a stall.
+To prevent the cows from hurting each other, FJ want to assign the cows to the stalls, such that the minimum distance between any two of them is as large as possible.
+What is the largest minimum distance?
+
+输入
+* Line 1: Two space-separated integers: N and C
+* Lines 2..N+1: Line i+1 contains an integer stall location, xi
+
+输出
+* Line 1: One integer: the largest minimum distance
+
+样例输入
+5 3
+1
+2
+8
+4
+9
+
+样例输出
+3
+
+提示
+OUTPUT DETAILS:
+
+FJ can put his 3 cows in the stalls at positions 1, 4 and 8, resulting in a minimum distance of 3.
+
+Huge input data,scanf is recommended.
+来源
+USACO 2005 February Gold
+
+
+题意要表达的是：把C头牛放到N个带有编号的隔间里，使得任意两头牛所在的隔间编号的最小差值最大。
+				例如样例排完序后变成1 2 4 8 9，那么1位置放一头牛，4位置放一头牛，它们的差值为3；
+				最后一头牛放在8或9位置都可以，和4位置的差值分别为4、5，和1位置的差值分别为7和8，不比3小，所以最大的最小值为3。
+
+分析：这是一个最小值最大化的问题。先对隔间编号从小到大排序，则最大距离不会超过两端的两头牛之间的差值，最小值为0。所以我们可以通过二分枚举最小值来求。假设当前的最小值为x，如果判断出最小差值为x时可以放下C头牛，就先让x变大再判断；如果放不下，说明当前的x太大了，就先让x变小然后再进行判断。直到求出一个最大的x就是最终的答案。
