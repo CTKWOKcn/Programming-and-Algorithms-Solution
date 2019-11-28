@@ -150,6 +150,12 @@
     <ClCompile Include="Aggressive cows.cpp">
       <Filter>资源文件\二分算法</Filter>
     </ClCompile>
+    <ClCompile Include="派.cpp">
+      <Filter>资源文件\二分算法</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="样本 熄灯问题.txt">

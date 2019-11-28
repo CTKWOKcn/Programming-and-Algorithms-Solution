@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -157,6 +157,8 @@
     <ClCompile Include="求 10000 以内的阶乘.cpp" />
     <ClCompile Include="包含四则运算的main（待修改）.cpp" />
     <ClCompile Include="公共子序列.cpp" />
+    <ClCompile Include="派.cpp" />
+    <ClCompile Include="源.cpp" />
     <ClCompile Include="特殊密码锁.cpp" />
     <ClCompile Include="特殊密码锁%28myself%29.cpp" />
     <ClCompile Include="生理周期.cpp" />
