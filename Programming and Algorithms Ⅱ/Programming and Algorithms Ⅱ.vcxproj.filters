@@ -156,6 +156,15 @@
     <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="源2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="全排列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2的幂次方.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="样本 熄灯问题.txt">

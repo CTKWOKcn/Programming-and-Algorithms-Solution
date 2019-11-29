@@ -130,6 +130,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="2的幂次方.cpp" />
     <ClCompile Include="addition.cpp" />
     <ClCompile Include="Aggressive cows.cpp" />
     <ClCompile Include="Factorial.cpp" />
@@ -159,6 +160,8 @@
     <ClCompile Include="公共子序列.cpp" />
     <ClCompile Include="派.cpp" />
     <ClCompile Include="源.cpp" />
+    <ClCompile Include="全排列.cpp" />
+    <ClCompile Include="源2.cpp" />
     <ClCompile Include="特殊密码锁.cpp" />
     <ClCompile Include="特殊密码锁%28myself%29.cpp" />
     <ClCompile Include="生理周期.cpp" />
