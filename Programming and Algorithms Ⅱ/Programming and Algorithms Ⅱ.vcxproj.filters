@@ -31,6 +31,9 @@
     <Filter Include="资源文件\二分算法">
       <UniqueIdentifier>{1aad9662-ad3b-471f-9d08-a78710e61b47}</UniqueIdentifier>
     </Filter>
+    <Filter Include="资源文件\递归\递归复习">
+      <UniqueIdentifier>{adc20e04-69c5-4be3-a2db-460985805910}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="addition.cpp">
@@ -153,17 +156,23 @@
     <ClCompile Include="派.cpp">
       <Filter>资源文件\二分算法</Filter>
     </ClCompile>
-    <ClCompile Include="源.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="源2.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="全排列.cpp">
-      <Filter>源文件</Filter>
+      <Filter>资源文件\递归</Filter>
     </ClCompile>
     <ClCompile Include="2的幂次方.cpp">
+      <Filter>资源文件\递归</Filter>
+    </ClCompile>
+    <ClCompile Include="判断元素是否存在.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="汉诺塔.cpp">
+      <Filter>资源文件\递归\递归复习</Filter>
+    </ClCompile>
+    <ClCompile Include="N皇后.cpp">
+      <Filter>资源文件\递归\递归复习</Filter>
+    </ClCompile>
+    <ClCompile Include="逆波兰表达式.cpp">
+      <Filter>资源文件\递归\递归复习</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -137,6 +137,7 @@
     <ClCompile Include="Hanio.cpp" />
     <ClCompile Include="Help Jimmy(POJ1661).cpp" />
     <ClCompile Include="multiplication.cpp" />
+    <ClCompile Include="N皇后.cpp" />
     <ClCompile Include="subtraction.cpp" />
     <ClCompile Include="N皇后(递归).cpp" />
     <ClCompile Include="二分法求方程的根.cpp" />
@@ -154,14 +155,14 @@
     <ClCompile Include="最佳加法表达式（递归）.cpp" />
     <ClCompile Include="最佳加法表达式（递推）.cpp" />
     <ClCompile Include="最长上升子序列.cpp" />
+    <ClCompile Include="汉诺塔.cpp" />
     <ClCompile Include="波兰表达式.cpp" />
     <ClCompile Include="求 10000 以内的阶乘.cpp" />
     <ClCompile Include="包含四则运算的main（待修改）.cpp" />
     <ClCompile Include="公共子序列.cpp" />
     <ClCompile Include="派.cpp" />
-    <ClCompile Include="源.cpp" />
     <ClCompile Include="全排列.cpp" />
-    <ClCompile Include="源2.cpp" />
+    <ClCompile Include="判断元素是否存在.cpp" />
     <ClCompile Include="特殊密码锁.cpp" />
     <ClCompile Include="特殊密码锁%28myself%29.cpp" />
     <ClCompile Include="生理周期.cpp" />
@@ -174,6 +175,7 @@
     <ClCompile Include="硬币（枚举）.cpp" />
     <ClCompile Include="算24.cpp" />
     <ClCompile Include="跳台阶问题.cpp" />
+    <ClCompile Include="逆波兰表达式.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Aggressive cows.txt" />
